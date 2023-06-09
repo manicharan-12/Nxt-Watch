@@ -14,6 +14,7 @@ import {
   CheckboxContainer,
   Checkbox,
   ShowPassword,
+  Hint,
 } from './styledComponents'
 
 class LoginForm extends Component {
@@ -78,6 +79,7 @@ class LoginForm extends Component {
           onChange={this.onChangeHandler}
           placeholder="Username"
         />
+        <Hint>Use: rahul</Hint>
       </>
     )
   }
@@ -96,6 +98,7 @@ class LoginForm extends Component {
           onChange={this.onChangeHandler}
           placeholder="Password"
         />
+        <Hint>Use: rahul@2021</Hint>
         <CheckboxContainer>
           <Checkbox
             type="checkbox"
