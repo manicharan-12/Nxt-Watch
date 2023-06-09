@@ -78,3 +78,8 @@ export const ShowPassword = styled.label`
   font-size: 15px;
   color: #1e293b;
 `
+export const Hint = styled.p`
+  font-size: 12px;
+  color: #475569;
+  margin: 0px;
+`
